@@ -29,7 +29,7 @@ html {
 header {
     background-color: var(--HEADER);
     width: 100vw;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.545);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.389);
 }
 
 .primary-title {
@@ -86,9 +86,12 @@ nav > ul > li > a {
 /* BODY */
 
 .section-image {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--FONT-SECTION);
+    font-size: 1em;
+    font-style: italic;
     text-align: center;
     background-color: var(--SECTION-ROYAL);
+    color: var(--FONT-COLOR);
     box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.404);
     background-attachment: fixed;
     padding: 0px 0px 16% 0px;
@@ -111,7 +114,7 @@ section#image {
     cursor: pointer;
 }
 
-#londolyta-icon:hover {
+#icon:hover {
     transition: transform 0.5s;
     transform: translate(-4px, -4px);
 }
@@ -134,11 +137,21 @@ h1 {
     margin: 0 0 10px 0;
 }
 
-#text-image {
+#text-image-2 {
     display: flex;
     justify-content: center;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.661);
     margin: 10px 0;
+}
+
+#text-image-3 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#image-2, #image-3 {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.661);
+    border-radius: 10px;
 }
 
 .section-normal {
@@ -156,9 +169,13 @@ h1 {
     align-items: center;
 }
 
-#Shopping-Cart:hover {
+#cart:hover {
     transition: transform 0.5s;
     transform: translate(-4px, -4px);
+}
+
+.hover-icons {
+    
 }
 
 h3 {

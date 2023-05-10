@@ -1,1 +1,81 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+
+    header {
+        height: 127px;
+    }
+
+    header > div > img {
+        width: 15%;
+    }
+
+    nav > ul > li > a {
+        padding: 0 25px;
+        font-size: 1em;
+    }
+
+    .primary-title {
+        padding: 11px 0 0 0;
+    }
+
+    #londolyta-icon {
+        padding-top: 10rem;
+    }
+
+    #icon {
+        width: 17%;
+    }
+
+    .section-image {
+        font-size: 1.4em;
+        font-style: italic;
+    }
+
+    .position-text {
+        margin: auto;
+        width: 70%;
+        font-size: 1.5em;
+        line-height: 2em;
+    }
+
+    #image-2 {
+        width: 50%;
+    } 
+
+    #text-image-2 {
+        display: flex;
+        justify-content: start;
+        margin: 0px 0;
+    }
+    
+    #text-image-3 {
+        display: flex;
+        justify-content: end;
+        margin: 10px 10px 20px 0;
+    }
+
+    #Shopping-Cart {
+        margin: 2em 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cart {
+        width: 30%;
+    }
+  
+    h1 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 2.8em;
+    }
+}
