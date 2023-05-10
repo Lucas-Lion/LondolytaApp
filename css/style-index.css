@@ -1,0 +1,237 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+    --HEADER:          #111f6b;
+    --HOME:            #8c0303;
+    --MENU:            #956932;
+    --SECTION-GOLD:    #976f24;
+    --SECTION-ROYAL-1: #111f6b; 
+    --SECTION-ROYAL-2: #0a144c; 
+    --FOOTER:          #14268c;
+    --FONT-COLOR:      #fafafa;
+    --FONT-MENU:    'Poppins', sans-serif;
+    --FONT-SECTION: 'Josefin Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--HEADER);
+    width: 100vw;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.545);
+}
+
+.primary-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--FONT-SECTION);
+    color: var(--FONT-COLOR);
+    padding: 10px 0 5px 0;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 1em;
+    list-style: none;
+    margin: 10px 0 0 5px;
+}
+
+nav > ul > li > a {
+    color: var(--FONT-COLOR);
+    font-family: var(--FONT-MENU);
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+#li-red {
+    background-color: var(--HOME);
+    padding: 0 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+#li-red:hover {
+    background-color: #5f0202;
+    padding: 0 8px;
+    transition: 0.5s;
+}
+
+.li-gold:hover {
+    background-color: #6d4d26;
+    padding: 0 8px;
+    transition: 0.5s;
+}
+
+.li-gold {
+    background-color: var(--MENU);
+    padding: 0 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+/* BODY */
+
+.section-image {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: var(--SECTION-ROYAL);
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.404);
+    background-attachment: fixed;
+    padding: 0px 0px 16% 0px;
+}
+
+section#image {
+    background-image: url(../pictures/londolyta_picture_1.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#londolyta-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0 0 0;
+}
+
+#icon {
+    cursor: pointer;
+}
+
+#londolyta-icon:hover {
+    transition: transform 0.5s;
+    transform: translate(-4px, -4px);
+}
+
+#about-me {
+    background-color: var(--SECTION-GOLD);
+    color: var(--FONT-COLOR);
+
+    font-family: var(--FONT-SECTION);
+    text-align: justify;
+    line-height: 2em;
+
+    transition: all 1.5s ease-in-out;
+    display: none;
+    padding: 15px 2em;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+#text-image {
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.661);
+    margin: 10px 0;
+}
+
+.section-normal {
+    text-align: center;
+    font-family: var(--FONT-SECTION);
+    background-image: linear-gradient(var(--SECTION-ROYAL-1), var(--SECTION-ROYAL-2));
+    color: var(--FONT-COLOR);
+    padding: 7em 0;
+}
+
+#Shopping-Cart {
+    margin: 2em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Shopping-Cart:hover {
+    transition: transform 0.5s;
+    transform: translate(-4px, -4px);
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+.contacts {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin: 2em 0 2em 0;
+}
+
+.hover-icons:hover {
+    transition: transform 0.5s;
+    transform: translate(-4px, -4px);
+}
+
+#line {
+    height: 2px;
+    border: none;
+    background-color: #14268c;
+}
+
+footer {
+    background-color: var(--FOOTER);
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+footer > p {
+    color: var(--FONT-COLOR);
+    font-family: var(--FONT-MENU);
+    font-size: 0.8em;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/* MENSAGEM DE CLIQUE */
+
+    #londolyta-icon {
+    position: relative;
+  }
+  
+  #message-container {
+    position: absolute;
+    top: -50px;
+    right: 150%;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+  }
+  
+  #message-container:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #ccc;
+    transform: translateY(-50%);
+  }
+  
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
