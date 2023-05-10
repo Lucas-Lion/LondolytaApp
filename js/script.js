@@ -16,3 +16,4 @@ londolytaIcon.addEventListener("click", () => {
   }
   sectionVisible = !sectionVisible;
 });
+
