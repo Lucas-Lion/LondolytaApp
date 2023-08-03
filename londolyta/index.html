@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/londolyta.ico" type="image/x-icon">
+    <!-- CSS DO PROJETO -->
+    <link rel="stylesheet" href="style/style.css">
+    <title>Londolyta</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand primary-color">
+                <img src="images/londolyta-icon.png" alt="Londolyta">
+                <span class="title-name">Londolyta</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-items">
+                        <a href="#" class="nav-link active primary-color" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#mini-banners" class="nav-link primary-color">Example</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#products" class="nav-link primary-color">Products</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#about" class="nav-link primary-color">About me</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#contact" class="nav-link primary-color">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- SLIDER -->
+    <div class="container" id="slider-container">
+        
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true" aria-label="slide 1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="slide 2"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="slide 3"></button>
+            </div>
+            <div class="d-flex justify-content-center">
+                
+            </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/banner-london-1.png" alt="bolo-chocolate" class="d-block w-100 carousel-image">
+                        <div class="carousel-caption">
+                            <img src="images/londolyta-icon.png" class="w-25 fixed-image " id="londolyta" alt="londolyta">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="images/banner-london-2.png" alt="Macarons" class="d-block w-100 carousel-image">
+                        <div class="carousel-caption">
+                            <img src="images/londolyta-icon.png" class="w-25 fixed-image " id="londolyta" alt="londolyta">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="images/banner-london-3.png" alt="Pudim" class="d-block w-100 carousel-image">
+                        <div class="carousel-caption">
+                            <img src="images/londolyta-icon.png" class="w-25 fixed-image " id="londolyta" alt="londolyta">
+                        </div>
+                    </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- MINI BANNERS -->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center bg-dark-card">
+                        <i class="bi bi-newspaper primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Example</h5>
+                            <p class="card-text primary-color">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis sint facilis eaque rem sit, tempore magnam exercitationem adipisci amet et dicta mollitia officiis, eius facere. Libero illo modi vel sint.</p>
+                            <a href="#" class="btn btn-dark rounded-1 w-50">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center bg-dark-card">
+                        <i class="bi bi-geo-alt-fill primary-color" id="product"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Example</h5>
+                            <p class="card-text primary-color">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis sint facilis eaque rem sit, tempore magnam exercitationem adipisci amet et dicta mollitia officiis, eius facere. Libero illo modi vel sint.</p>
+                            <a href="products_buy/index.html" target="_blank" class="btn btn-dark rounded-1 w-50">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center bg-dark-card">
+                        <i class="bi bi-cup-hot primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Example</h5>
+                            <p class="card-text primary-color">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis sint facilis eaque rem sit, tempore magnam exercitationem adipisci amet et dicta mollitia officiis, eius facere. Libero illo modi vel sint.</p>
+                            <a href="#" class="btn btn-dark rounded-1 w-50">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DESTAQUES -->
+    <div class="container" id="featured-container">
+        <div class="col-12" id="products">
+            <h2 class="title terciary-color">Some products</h2>
+            <p class="subtitle secondary-color">Discover our diversity of baskets</p>
+        </div>
+        <div class="col-12" id="featured-images">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <img src="img/apple-pie.jpg" alt="imagem 1" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="seconday-color">Doces</p>
+                        <h3>Apple Pie</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/tiramisu-4055650_1280.jpg" width="600" alt="imagem 1" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="seconday-color">Doces</p>
+                        <h3>Tiramisú</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 teste">
+                    <img src="img/muffins-g.jpg" alt="imagem 2" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="seconday-color">Doces</p>
+                        <h3>Muffins</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/canela.jpg" alt="imagem 3" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="seconday-color">Doces</p>
+                        <h3>Cheesecake</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/cookies.jpg" alt="imagem 4" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="seconday-color">Doces</p>
+                        <h3>Cookies</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/floresta.jpg" alt="imagem 5" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="seconday-color">Doces</p>
+                        <h3>Apple Pie</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- INFO -->
+    <div class="container" id="info-container">
+        <div class="col-12" id="about">
+            <h2 class="title terciary-color">About me</h2>
+            <p class="subtitle secondary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ut?</p>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-5" id="info-banner">
+                    <img src="images/more.jpg" alt="informations" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-7 bg-primary-color" id="info-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="title primary-color">Informations</h2>
+                            <p class="subtitle primary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam illum dolore adipisci voluptas, voluptate, itaque error natus explicabo velit officia, accusantium eaque iusto beatae delectus maiores. Facilis dolor quasi nam id corporis! Ex, quibusdam aliquid eius nesciunt similique sit!</p>
+                        </div>
+                        <div class="col-12" id="info-numbers">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h3 class="primary-color">18</h3>
+                                    <p class="secondary-color">Lorem ipsum</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color">95</h3>
+                                    <p class="secondary-color">Lorem ipsum</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color">10</h3>
+                                    <p class="secondary-color">Lorem ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="btn btn-dark information-bottom rounded-1">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-four-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- FOOTER TOP -->
+                <div class="col-12" id="footer-top">
+                    <div class="row justify-content-between primary-color">
+                        <div class="col-4"><h2>Londolyta</h2></div>
+                        <div class="col-4" id="social-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER DETAILS -->
+                <div class="col-12" id="footer-details">
+                    <div class="row">
+                        <div class="col-12 col-md-4 primary-color" id="new-container">
+                            <h4>Stay on top of the news</h4>
+                            <p class="primary-color">Subscribe</p>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Enter your email...">
+                                </div>
+                                <button class="btn btn-dark submit-inscrever rounded-1" type="submit">Submit</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-4 primary-color" id="contact-container">
+                            <h4>Contacts</h4>
+                            <p class="primary-color">(20) 1234-5678</p>
+                            <p class="primary-color">londolyta@outlook.com</p>
+                        </div>
+                        <div class="col-12 col-md-4 primary-color" id="links-container">
+                            <div class="row">
+                                <h4>You can search for:</h4>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="primary-color">Themed party</a></li>
+                                        <li><a href="#" class="primary-color">Favorite character</a></li>
+                                        <li><a href="#" class="primary-color">Games and pranks</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="primary-color">Surprise basket</a></li>
+                                        <li><a href="#" class="primary-color">basket Adventure</a></li>
+                                        <li><a href="#" class="primary-color">sweet basket</a></li>
+                                        <li><a href="#" class="primary-color">Help</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER BOTTOM -->
+                <div class="col-12" id="footer-bottom">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color">Londolyta &copy; 2023</p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color">Fun for your whole family  <i class="bi bi-person-heart"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
