@@ -4,6 +4,9 @@
 
 O LondolytaApp é um projeto dedicado a um site que promove os serviços de uma mascote fictícia chamada Londolyta, especializada em entretenimento infantil através de animações em festas e venda de produtos relacionados. Este projeto visa fornecer uma plataforma online para divulgação dos serviços oferecidos, exibição de produtos disponíveis para compra e contato para contratação dos serviços.
 
+<strong>GitPages:</strong> <br>
+https://lucas-lion.github.io/LondolytaApp/londolyta/
+
 <br>
 <strong>Funcionalidades Principais</strong> <br> <br>
 
