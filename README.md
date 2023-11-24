@@ -3,7 +3,7 @@
 O LondolytaApp é um projeto dedicado a um site que promove os serviços de uma mascote fictícia chamada Londolyta, especializada em entretenimento infantil através de animações em festas e venda de produtos relacionados. Este projeto visa fornecer uma plataforma online para divulgação dos serviços oferecidos, exibição de produtos disponíveis para compra e contato para contratação dos serviços.
 
 <br>
-<strong>Funcionalidades Principais</strong> <br>
+<strong>Funcionalidades Principais</strong> <br> <br>
 
 - Página Inicial: Apresentação da Londolyta, breve descrição dos serviços oferecidos e produtos disponíveis.
 - Galeria de Fotos e Vídeos: Mostra vídeos e fotos das animações em festas anteriores.
@@ -19,7 +19,7 @@ Clone ou Download: Faça o clone deste repositório ou baixe o código para sua 
 Abra o Index.html: Abra o arquivo index.html em seu navegador para visualizar o site.
 <br>
 
-<strong>Tecnologias Utilizadas:</strong> <br> <br>
+<strong>Tecnologias Utilizadas:</strong> <br>
 
 - HTML5
 - CSS3
